@@ -1,0 +1,25 @@
+# 新建
+echo "# crawler" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:TobiasKruzhor/crawler.git
+git push -u origin main
+
+#上传
+git remote add origin git@github.com:TobiasKruzhor/crawler.git
+git branch -M main
+git push -u origin main
+
+#上传，带提交信息
+#github自动上传
+
+git add .
+git commit -m "crawler1 commit"
+git remote add origin git@github.com:TobiasKruzhor/crawler.git
+git branch -M main
+git push -u origin main
+
+#拉取
+git pull git@github.com:TobiasKruzhor/crawler.git
