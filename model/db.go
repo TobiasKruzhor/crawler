@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/TobiasKruzhor/crawler/utils"
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 )
 
